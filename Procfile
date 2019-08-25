@@ -1,1 +1,1 @@
-web: bin/sso
+web: bin/sso $PORT
