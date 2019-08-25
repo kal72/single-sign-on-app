@@ -1,0 +1,25 @@
+[app]
+serverport = "9191"
+jwtsecret = "^SAghf4553I*&"
+log_path = "/home/ped/goprojects/src/skripsi-sso/log" #directory for log
+export_path = "/temp"
+api_settlement = "http://localhost:100000/doSettlement"
+url_storage = "http://dev-dashboard.ainosi.com/storage"
+
+[[databases]]
+name = "db_master"
+driver_name = "postgres"
+connection_string = "postgres://dashboard_dev1:devdash1_321@172.16.27.7:5432/db_master?sslmode=disable"
+max_connection_open = 20
+
+[[databases]]
+name = "db_summary"
+driver_name = "postgres"
+connection_string = "postgres://dashboard_tl:tldash_987@172.16.27.6:5432/db_summary?sslmode=disable"
+max_connection_open = 20
+
+[[databases]]
+name = "db_transaction_hot"
+driver_name = "postgres"
+connection_string = "postgres://dashboard_dev1:devdash1_321@172.16.27.6:5432/db_transaction_hot?sslmode=disable"
+max_connection_open = 20

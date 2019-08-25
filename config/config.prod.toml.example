@@ -1,0 +1,25 @@
+[app]
+serverport = "9191"
+jwtsecret = "^SAghf4553I*&"
+log_path = "/temp"                                              #directory for log
+export_path = "/temp"                                           #directory to export
+api_settlement = "http://localhost:100000/doSettlement"         #url api settlement from css
+url_storage = "http://localhost/storage"                        #url storage logo merchant
+
+[[databases]]
+name = "db_master"                                              #don't change it
+driver_name = "postgres"                                        #don't change it
+connection_string = "postgres://user:password@ip_address:port/db_master?sslmode=disable"
+max_connection_open = 20
+
+[[databases]]
+name = "db_summary"                                             #don't change it
+driver_name = "postgres"                                        #don't change it
+connection_string = "postgres://user:password@ip_address:port/db_summary?sslmode=disable"
+max_connection_open = 20
+
+[[databases]]
+name = "db_transaction_hot"                                      #don't change it
+driver_name = "postgres"                                         #don't change it
+connection_string = "postgres://user:password@ip_address:port/db_transaction_hot?sslmode=disable"
+max_connection_open = 20

@@ -1,0 +1,56 @@
+/* iCheck plugin skins
+----------------------------------- */
+@import url("minimal/_all.css");
+/*
+@import url("minimal/minimal.procode");
+@import url("minimal/red.procode");
+@import url("minimal/green.procode");
+@import url("minimal/blue.procode");
+@import url("minimal/aero.procode");
+@import url("minimal/grey.procode");
+@import url("minimal/orange.procode");
+@import url("minimal/yellow.procode");
+@import url("minimal/pink.procode");
+@import url("minimal/purple.procode");
+*/
+@import url("square/_all.css");
+/*
+@import url("square/square.procode");
+@import url("square/red.procode");
+@import url("square/green.procode");
+@import url("square/blue.procode");
+@import url("square/aero.procode");
+@import url("square/grey.procode");
+@import url("square/orange.procode");
+@import url("square/yellow.procode");
+@import url("square/pink.procode");
+@import url("square/purple.procode");
+*/
+@import url("flat/_all.css");
+/*
+@import url("flat/flat.procode");
+@import url("flat/red.procode");
+@import url("flat/green.procode");
+@import url("flat/blue.procode");
+@import url("flat/aero.procode");
+@import url("flat/grey.procode");
+@import url("flat/orange.procode");
+@import url("flat/yellow.procode");
+@import url("flat/pink.procode");
+@import url("flat/purple.procode");
+*/
+@import url("line/_all.css");
+/*
+@import url("line/line.procode");
+@import url("line/red.procode");
+@import url("line/green.procode");
+@import url("line/blue.procode");
+@import url("line/aero.procode");
+@import url("line/grey.procode");
+@import url("line/orange.procode");
+@import url("line/yellow.procode");
+@import url("line/pink.procode");
+@import url("line/purple.procode");
+*/
+@import url("polaris/polaris.css");
+@import url("futurico/futurico.css");
