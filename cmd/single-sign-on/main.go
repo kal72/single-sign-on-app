@@ -13,7 +13,7 @@ import (
 	"skripsi-sso/utils"
 )
 
-var Env = "local"
+var Env = "heroku"
 
 func main() {
 	var port string

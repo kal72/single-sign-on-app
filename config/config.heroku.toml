@@ -1,0 +1,11 @@
+[app]
+serverport = "9191"
+jwtsecret = "^SAghf4553I*&"
+log_path = "/home/ped/goprojects/src/skripsi-sso/log" #directory for log
+export_path = "/temp"
+
+[[databases]]
+name = "d3naimrglt5ijs"
+driver_name = "postgres"
+connection_string = "postgres://mauydmjxcnuogi:ef2792ce4e4d0db4de0e539f81445ce1212562fd5cd5f62f1a569cd0f4b8ecdf@ec2-107-20-155-148.compute-1.amazonaws.com:5432/d3naimrglt5ijs"
+max_connection_open = 10
